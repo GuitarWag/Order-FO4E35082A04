@@ -1,26 +1,34 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Provider } from 'react-redux';
+import { IntlProvider } from 'react-intl';
 
-function App() {
+import { Router } from 'react-router';
+import { createBrowserHistory } from 'history';
+
+import { ThemeProvider, CssBaseline } from '@material-ui/core';
+import store from './store';
+import { en } from './i18n';
+import NavigationContainer from './navigation';
+import theme from './theme';
+
+const history = createBrowserHistory({
+  basename: process.env.PUBLIC_URL,
+});
+
+// WE CAN CREATE A STORE TO DEAL WITH OTHER LANGUAGES LATER
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Provider store={store}>
+      <IntlProvider locale="en" messages={en}>
+        <ThemeProvider theme={theme}>
+          <Router history={history}>
+            <CssBaseline />
+            <NavigationContainer />
+          </Router>
+        </ThemeProvider>
+      </IntlProvider>
+    </Provider>
   );
-}
+};
 
 export default App;

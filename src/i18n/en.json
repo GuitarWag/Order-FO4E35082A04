@@ -1,0 +1,19 @@
+{
+  "collegeDemo": "College Demo",
+  "doctors": "Doctors",
+  "bookAnAppointment": "Book an appointment",
+  "pharmacy": "Pharmacy",
+  "medicinesAndHealthProducts": "Medicines & health products",
+  "diagnostics": "Diagnostics",
+  "bookTestsAndCheckups": "Book tests & checkups",
+  "loginSignUp": "Login / Sign Up",
+  "home": "Home",
+  "aboutUs": "About us",
+  "topCities": "Top Cities",
+  "topSpecialists": "Top Specialists",
+  "title": "Book an appointment for an in-clinic consultation",
+  "description": "Find experienced doctors across all specialities",
+  "typeZipcode": "Type the zipcode",
+  "searchDoctors": "Search doctors, clinics, hospitals, etc",
+  "detect": "Detect"
+}

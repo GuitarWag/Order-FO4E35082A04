@@ -1,0 +1,44 @@
+{
+  "specialities": [
+    {
+      "name": "Dentist",
+      "slug": "dentist",
+      "image": "https://image.shutterstock.com/image-photo/dentist-patient-office-260nw-1052270132.jpg",
+      "id": "123456789"
+    },
+    {
+      "name": "Gynecologist/Obstetrician",
+      "slug": "gynecologist-obstetrician",
+      "image": "https://media.gettyimages.com/photos/having-advise-with-a-gynecologist-picture-id638749062?s=612x612",
+      "id": "34563456"
+    },
+    {
+      "name": "Dietitian/Nutrition",
+      "slug": "dietitian-nutrition",
+      "image": "https://blogs.chihealth.com/wp-content/uploads/2019/03/Registered-Dietitian.jpg",
+      "id": "6345634"
+    },
+    {
+      "name": "Physiotherapist/Nutrition",
+      "slug": "physiotherapist-nutrition",
+      "image": "https://i2.wp.com/www.wantcv.com/wp-content/uploads/2019/07/physiotherapist-resume-writing.jpg?fit=600%2C400&ssl=1&resize=1280%2C720",
+      "id": "3456456"
+    },
+    {
+      "name": "Dummy1",
+      "slug": "dummy1",
+      "image": "https://image.shutterstock.com/image-photo/dentist-patient-office-260nw-1052270132.jpg",
+      "id": "3563456"
+    }
+  ],
+  "topCities": [
+    {
+      "name": "New York",
+      "id": "new-york"
+    },
+    {
+      "name": "Los Angeles",
+      "id": "los-angeles"
+    }
+  ]
+}
