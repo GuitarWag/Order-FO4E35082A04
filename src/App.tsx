@@ -12,7 +12,7 @@ import NavigationContainer from './navigation';
 import theme from './theme';
 
 const history = createBrowserHistory({
-  basename: process.env.PUBLIC_URL,
+  basename: '/',
 });
 
 // WE CAN CREATE A STORE TO DEAL WITH OTHER LANGUAGES LATER

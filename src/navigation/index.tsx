@@ -11,7 +11,7 @@ import Speciality from '../pages/speciality';
 
 const NavigationContainer: React.FC = () => {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename="/">
       <Switch>
         <Route exact path={ROUTES.MAIN}>
           <Main />
