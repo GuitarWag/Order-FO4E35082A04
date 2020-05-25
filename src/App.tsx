@@ -11,9 +11,7 @@ import { en } from './i18n';
 import NavigationContainer from './navigation';
 import theme from './theme';
 
-const history = createBrowserHistory({
-  basename: '/',
-});
+const history = createBrowserHistory({});
 
 // WE CAN CREATE A STORE TO DEAL WITH OTHER LANGUAGES LATER
 const App: React.FC = () => {

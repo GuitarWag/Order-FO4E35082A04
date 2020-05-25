@@ -1,6 +1,6 @@
 {
   "name": "fiverr-s",
-  "homepage": "http://guitarwag.github.io/Order-FO4E35082A04",
+  "homepage": "https://guitarwag.github.io/Order-FO4E35082A04",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -18,6 +18,7 @@
     "@types/redux-saga": "^0.10.5",
     "axios": "^0.19.2",
     "clsx": "^1.1.0",
+    "history": "^4.10.1",
     "lodash": "^4.17.15",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -66,8 +67,8 @@
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-react": "^7.20.0",
     "eslint-plugin-react-hooks": "^2.5.1",
-    "prettier": "^1.19.1",
-    "gh-pages": "^2.2.0"
+    "gh-pages": "^2.2.0",
+    "prettier": "^1.19.1"
   },
   "proxy": "https://m.usps.com"
 }
