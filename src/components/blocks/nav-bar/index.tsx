@@ -20,7 +20,7 @@ const NavBar: React.FC = () => {
   const classes = useStyles();
   return (
     <AppBar>
-      <Grid xs={9} item>
+      <Grid xs={10} item>
         <Container className={classes.container}>
           <Link i18n={I18N.COLLEGE_DEMO} route={ROUTES.MAIN} />
           <Link i18n={I18N.DOCTORS} i18nCaption={I18N.BOOK_AN_APPOINTMENT} route={ROUTES.DOCTORS} />
@@ -28,7 +28,7 @@ const NavBar: React.FC = () => {
           <Link i18n={I18N.DIAGNOSTICS} i18nCaption={I18N.BOOK_TESTS_AND_CHECKUPS} route={ROUTES.DIAGNOSTICS} />
         </Container>
       </Grid>
-      <Grid xs={3} item>
+      <Grid xs={2} item>
         <LoginButton />
       </Grid>
     </AppBar>

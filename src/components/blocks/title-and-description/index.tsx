@@ -7,9 +7,9 @@ import I18N from '../../../i18n';
 const useStyles = makeStyles(() =>
   createStyles({
     container: {
-      padding: '0 60px',
+      padding: '0 5px',
       height: 'fit-content',
-      margin: '25px 0',
+      margin: '50px 0',
     },
   }),
 );

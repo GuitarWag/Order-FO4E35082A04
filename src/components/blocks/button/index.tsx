@@ -10,7 +10,6 @@ interface Props {
 }
 const Button: React.FC<Props> = ({ onClick, i18n, children }: Props) => {
   return (
-    // @ts-ignore
     <MuiButton size="small" fullWidth variant="outlined" color="primary" onClick={onClick}>
       {children}
       <Typography i18n={i18n} />

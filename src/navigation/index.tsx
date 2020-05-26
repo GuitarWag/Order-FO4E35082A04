@@ -1,7 +1,7 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import Main from '../pages/main';
-import ROUTES, { BASENAME } from './routes';
+import ROUTES from './routes';
 import Doctors from '../pages/doctors';
 import Pharmacy from '../pages/pharmacy';
 import Diagnostics from '../pages/diagnostics';
@@ -11,7 +11,7 @@ import Speciality from '../pages/speciality';
 
 const NavigationContainer: React.FC = () => {
   return (
-    <Router basename={BASENAME}>
+    <>
       <Switch>
         <Route exact path={ROUTES.MAIN}>
           <Main />
@@ -35,7 +35,7 @@ const NavigationContainer: React.FC = () => {
           <NotFound />
         </Route>
       </Switch>
-    </Router>
+    </>
   );
 };
 

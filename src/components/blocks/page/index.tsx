@@ -20,7 +20,7 @@ const useStyles = makeStyles(() =>
       gridTemplateRows: '60px calc(100vh - 250px) 100px',
     },
     content: {
-      padding: '15px 50px',
+      padding: '15px 80px',
       alignContent: 'flex-start',
     },
   }),

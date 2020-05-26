@@ -5,11 +5,11 @@ import { createStyles } from '@material-ui/core';
 export const usePageItemContainerStyles = makeStyles(() =>
   createStyles({
     container: {
-      padding: '0 50px',
       display: 'flex',
       justifyContent: 'flex-start',
       alignItems: 'center',
       height: 'fit-content',
+      padding: 0,
     },
   }),
 );
